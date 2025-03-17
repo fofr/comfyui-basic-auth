@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-basic-auth"
 description = "A basic auth middleware for ComfyUI"
-version = "1.0.0"
+version = "1.0.1"
 license = { file = "LICENSE" }
 
 [project.urls]
@@ -11,4 +11,3 @@ Repository = "https://github.com/fofr/comfyui-basic-auth"
 [tool.comfy]
 PublisherId = "fofr"
 DisplayName = "ComfyUI-Basic-Auth"
-Icon = "🪴"
