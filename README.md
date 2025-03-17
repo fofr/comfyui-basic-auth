@@ -23,17 +23,18 @@ git clone https://github.com/fofr/comfyui-basic-auth
 
 ## Configuration
 
-1. Create a `.env` file in the node directory:
+Set environment variables for your username and password:
+
 ```bash
-COMFY_AUTH_USERNAME=your_username
-COMFY_AUTH_PASSWORD=your_password
+export COMFYUI_USERNAME=your_username
+export COMFYUI_PASSWORD=your_password
 ```
 
-2. Restart ComfyUI for the changes to take effect.
+Restart ComfyUI for the changes to take effect.
 
 ## Usage
 
-The authentication will automatically be active once the node is installed and configured. When accessing ComfyUI, you will be prompted for the username and password you specified in the `.env` file.
+The authentication will automatically be active once the node is installed and configured. When accessing ComfyUI, you will be prompted for the username and password you specified in the environment variables.
 
 ## Security Note
 

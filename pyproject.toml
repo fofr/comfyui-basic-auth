@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-basic-auth"
 description = "A basic auth middleware for ComfyUI"
-version = "1.0.1"
+version = "1.0.3"
 license = { file = "LICENSE" }
 
 [project.urls]
